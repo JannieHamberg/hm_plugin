@@ -1,0 +1,25 @@
+{
+  "name": "hm_plugin",
+  "version": "1.0.0",
+  "main": "src/blocks/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.2"
+  },
+  "overrides": {
+  "ws": "^8.18.0",
+  "lighthouse": "^12.1.0",
+  "puppeteer-core": "^22.13.1"
+}
+
+
+  
+}
